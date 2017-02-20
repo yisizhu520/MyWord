@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)http://api.thepoemforyou.com/share/userProgram/commonShare/378181 -->
+<html lang="en" style="font-size: 100px;" class="hb-loaded">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--<script src="http://gk.i-rmb.net/lib/query?src=t6413&amp;t=%E4%B8%BA%E4%BD%A0%E8%AF%BB%E8%AF%97%E5%A3%B0%E9%9F%B3%E7%A4%BC%E7%89%A9&amp;r="></script>-->
+    <script src="res/auto.js"></script>
+
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>为你读诗声音礼物</title>
+    <link rel="stylesheet" type="text/css" href="res/reset.css">
+    <link rel="stylesheet" type="text/css" href="res/specialshare.css">
+    <link rel="stylesheet" type="text/css" href="res/commonshare.css">
+    <script src="res/zepto.js"></script>
+    <script src="res/auto(1).js"></script>
+    <script type="text/javascript" src="res/doT.min.js"></script>
+    <script type="text/javascript" src="res/special-share.js"></script>
+    <script type="text/javascript" src="res/download.js"></script>
+</head>
+<body huaban_collector_injected="true" youdao="bind">
+<div class="content">
+    <article class="share-top">
+        <img src="res/logo-buttop.png">
+    </article>
+    <article class="share-cont">
+        <div class="clearfix">
+
+            <img class="left shareHead" src="res/100">
+            <div class="left shareWord">
+                <h2>蘑菇君</h2>
+
+                <textarea class="shareWord24" autoheight="true" style="height: 80px;">愿得一人心，白首不分离</textarea>
+
+            </div>
+        </div>
+        <div class="cd-cont">
+            <div class="sharecd-out"></div>
+            <div class="picture">
+                <img src="res/cd-pic.png">
+                <div class="cd-btn" id="start"><img src="res/cd-start.png"></div>
+                <div class="cd-btn" id="stop" style="display: none;"><img src="res/cd-stop.png"></div>
+                <audio src="http://thepoemforyou.oss-cn-beijing.aliyuncs.com/program/user/20170211/video/1486802049353317596.mp3"></audio>
+            </div>
+        </div>
+        <div class="poetcon">
+
+
+            <div class="poetry-info">
+
+
+            </div>
+            <!-- <p>来源：「为你读诗 • 官方原创」</p>
+            <p>官方小站：<span>二十一天读诗计划</span></p> -->
+        </div>
+    </article>
+    <article class="bottom-con">
+        <h2>你的声音就是最好的礼物</h2>
+        <div class="logo-en"><img src="res/logo-en.png"></div>
+        <div class="weixin"><img src="res/AppStore.png"></div>
+        <p class="desc-word">快去下载「为你读诗」官方APP<br>录首小诗，赠予TA</p>
+        <p class="green-line"></p>
+    </article>
+</div>
+
+
+<audio controls="controls" style="display: none;"></audio>
+<div style="position: static; width: 0px; height: 0px; border: none; padding: 0px; margin: 0px;">
+    <div id="trans-tooltip">
+        <div id="tip-left-top"
+             style="background: url(&quot;chrome-extension://ikkepelhgbcgmhhmcmpfkjmchccjblkd/imgs/map/tip-left-top.png&quot;);"></div>
+        <div id="tip-top"
+             style="background: url(&quot;chrome-extension://ikkepelhgbcgmhhmcmpfkjmchccjblkd/imgs/map/tip-top.png&quot;) repeat-x;"></div>
+        <div id="tip-right-top"
+             style="background: url(&quot;chrome-extension://ikkepelhgbcgmhhmcmpfkjmchccjblkd/imgs/map/tip-right-top.png&quot;);"></div>
+        <div id="tip-right"
+             style="background: url(&quot;chrome-extension://ikkepelhgbcgmhhmcmpfkjmchccjblkd/imgs/map/tip-right.png&quot;) repeat-y;"></div>
+        <div id="tip-right-bottom"
+             style="background: url(&quot;chrome-extension://ikkepelhgbcgmhhmcmpfkjmchccjblkd/imgs/map/tip-right-bottom.png&quot;);"></div>
+        <div id="tip-bottom"
+             style="background: url(&quot;chrome-extension://ikkepelhgbcgmhhmcmpfkjmchccjblkd/imgs/map/tip-bottom.png&quot;) repeat-x;"></div>
+        <div id="tip-left-bottom"
+             style="background: url(&quot;chrome-extension://ikkepelhgbcgmhhmcmpfkjmchccjblkd/imgs/map/tip-left-bottom.png&quot;);"></div>
+        <div id="tip-left"
+             style="background: url(&quot;chrome-extension://ikkepelhgbcgmhhmcmpfkjmchccjblkd/imgs/map/tip-left.png&quot;);"></div>
+        <div id="trans-content"></div>
+    </div>
+    <div id="tip-arrow-bottom"
+         style="background: url(&quot;chrome-extension://ikkepelhgbcgmhhmcmpfkjmchccjblkd/imgs/map/tip-arrow-bottom.png&quot;);"></div>
+    <div id="tip-arrow-top"
+         style="background: url(&quot;chrome-extension://ikkepelhgbcgmhhmcmpfkjmchccjblkd/imgs/map/tip-arrow-top.png&quot;);"></div>
+</div>
+<div id="__nightingale_view_cover"
+     style="width: 100%; height: 100%; transition: -webkit-transform 10s ease-in-out; position: fixed !important; left: 0px !important; bottom: 0px !important; overflow: hidden !important; pointer-events: none !important; z-index: 2147483647; opacity: 0; background: rgb(0, 0, 0) !important;"></div>
+</body>
+<style type="text/css">#yddContainer {
+    display: block;
+    font-family: Microsoft YaHei;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -4px;
+    left: -4px;
+    font-size: 12px;
+    border: 1px solid
+}
+
+#yddTop {
+    display: block;
+    height: 22px
+}
+
+#yddTopBorderlr {
+    display: block;
+    position: static;
+    height: 17px;
+    padding: 2px 28px;
+    line-height: 17px;
+    font-size: 12px;
+    color: #5079bb;
+    font-weight: bold;
+    border-style: none solid;
+    border-width: 1px
+}
+
+#yddTopBorderlr .ydd-sp {
+    position: absolute;
+    top: 2px;
+    height: 0;
+    overflow: hidden
+}
+
+.ydd-icon {
+    left: 5px;
+    width: 17px;
+    padding: 0px 0px 0px 0px;
+    padding-top: 17px;
+    background-position: -16px -44px
+}
+
+.ydd-close {
+    right: 5px;
+    width: 16px;
+    padding-top: 16px;
+    background-position: left -44px
+}
+
+#yddKeyTitle {
+    float: left;
+    text-decoration: none
+}
+
+#yddMiddle {
+    display: block;
+    margin-bottom: 10px
+}
+
+.ydd-tabs {
+    display: block;
+    margin: 5px 0;
+    padding: 0 5px;
+    height: 18px;
+    border-bottom: 1px solid
+}
+
+.ydd-tab {
+    display: block;
+    float: left;
+    height: 18px;
+    margin: 0 5px -1px 0;
+    padding: 0 4px;
+    line-height: 18px;
+    border: 1px solid;
+    border-bottom: none
+}
+
+.ydd-trans-container {
+    display: block;
+    line-height: 160%
+}
+
+.ydd-trans-container a {
+    text-decoration: none;
+}
+
+#yddBottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    background-position: left -22px
+}
+
+.ydd-padding010 {
+    padding: 0 10px
+}
+
+#yddWrapper {
+    color: #252525;
+    z-index: 10001;
+    background: url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ab20.png);
+}
+
+#yddContainer {
+    background: #fff;
+    border-color: #4b7598
+}
+
+#yddTopBorderlr {
+    border-color: #f0f8fc
+}
+
+#yddWrapper .ydd-sp {
+    background-image: url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ydd-sprite.png)
+}
+
+#yddWrapper a, #yddWrapper a:hover, #yddWrapper a:visited {
+    color: #50799b
+}
+
+#yddWrapper .ydd-tabs {
+    color: #959595
+}
+
+.ydd-tabs, .ydd-tab {
+    background: #fff;
+    border-color: #d5e7f3
+}
+
+#yddBottom {
+    color: #363636
+}
+
+#yddWrapper {
+    min-width: 250px;
+    max-width: 400px;
+}</style>
+</html>
